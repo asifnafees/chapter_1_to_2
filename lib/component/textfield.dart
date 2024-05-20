@@ -38,7 +38,7 @@ class _MyTextFieldState extends State<MyTextField> {
           TextFormField(
               decoration:InputDecoration(
                   hintText: 'password',
-                  prefixIcon: Icon(Icons.email),
+                  prefixIcon: Icon(Icons.password_outlined),
                   suffixIcon: Icon(Icons.lock),
                   filled: true,
                   fillColor: Colors.black12,
