@@ -17,6 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return  Scaffold(
       body: ListView(
         children: [
+          SizedBox(height: 10,),
           Header(),
           SizedBox(height: 100,),
           Header2(),
